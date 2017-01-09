@@ -34,7 +34,7 @@ apt-get install git fakeroot
 
 cd /root
 git init
-git clone https://github.com/belese/xbian-package-a2dp
+git clone https://github.com/jvanakker/xbian-package-a2dp
 cd xbian-package-a2dp
 
 ./gen.package.sh
