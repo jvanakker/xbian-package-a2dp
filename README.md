@@ -8,6 +8,8 @@ Goals:
 - Everything should start automatically on boot
 - External USB audio adapter reccomended for good quality
 
+- Xbian required
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 Not working yet!! WIP for Raspberry Pi 3 (b).
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -16,7 +18,7 @@ Not working yet!! WIP for Raspberry Pi 3 (b).
 
 Install on your Raspberry (v3) with the following commands:
 
-Requirements:
+Required first:
 sudo apt-get install bluez alsa-base alsa-utils pulseaudio pulseaudio-module-bluetooth pulseaudio-utils python-gobject python-gobject-2 bluez-tools
 
 sudo sh -c "echo 'extra-arguments = --exit-idle-time=-1 --log-target=syslog' >> /etc/pulse/client.conf"
