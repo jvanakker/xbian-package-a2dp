@@ -1,6 +1,14 @@
 # xbian-package-a2dp
 bluetooth a2dp audio for xbian
 
+Goals:
+- Stream bluetooth audio TO your Raspberry Pi 3. For example to be used in car.
+- Automatically make it discoverable for your phone (iOS/Android), just like a bluetooth speaker
+- No pairing from commandline required
+- Everything should start automatically on boot
+- External USB audio adapter reccomended for good quality
+
+
 Not completely working yet!! WIP for Raspberry Pi 3 (b).
 
 Install on your Raspberry (v3) with the following commands:
