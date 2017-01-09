@@ -42,6 +42,7 @@ cd xbian-package-a2dp
 Now you should have a debian package called:
 xbian-package-a2dp1.1.deb
 
+
 Proceed to install it:
 
 dpkg -i xbian-package-a2dp1.1.deb
